@@ -3,7 +3,7 @@
 
 int main()
 {
-	srand((unsigned) time(nullptr));
+	srand(time(NULL));
 
 	int mon1, mon2, mon3, mon4, mon5, mon6, mon7, mon8;
 	mon1 = rand() % 10 + 1;
@@ -14,7 +14,7 @@ int main()
 	mon6 = rand() % 15 + 6;
 	mon7 = rand() % 8 + 1;
 	mon8 = rand() % 20 + 10;
-	// if you wnat to change monndai range
+	// if you want to change question range
 	// please change "n" >> rand() "% n + 1"
 
 	char quest[20] = { "\nNext test!\n" };
@@ -28,7 +28,7 @@ int main()
 	unsigned int* py = &y;
 	Seed_Rand(px, py);
 
-	int Question[10] = {};
+	int Question[10] = {0};
 	int* P_Question = Question;
 
 	int a = 0, b = 0, c = 0, d = 0;

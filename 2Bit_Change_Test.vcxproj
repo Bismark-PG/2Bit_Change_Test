@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2bit_test.cpp" />
-    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="2bit_test.c" />
+    <ClCompile Include="Test.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h" />
